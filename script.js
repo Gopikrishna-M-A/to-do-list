@@ -1,15 +1,18 @@
+var currentDate = new Date();
+var h = currentDate.getHours();
+var m = currentDate.getMinutes();
+var s = currentDate.getSeconds();
 var numId = 0
 
 function addButtonClicked() {
     var text
-    
-   
     text = document.getElementById('addBox').value
     var parent = document.getElementById('mainFrame');
     var newChild = '<div id='+numId+' > <input class="displaybox" type="text" disabled value="'+text+'">  <span onclick="deleteButtonClicked('+numId+')" class="del"><i class="material-icons">delete</i></span>  </div>';
-    parent.insertAdjacentHTML('beforeend', newChild);
+    parent.insertAdjacentHTML('beforeend', newChild);   
     document.getElementById('addBox').value= ''
     numId++
+   console.log(h+":"+m+":"+s);
    
     
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 body{
     width: 100vw;
     height: 100vh;
@@ -26,7 +27,7 @@ body{
     
 }
 .title{
-    font-size: 23px;
+    font-size: 20px;
     margin: auto;
     text-align: center ;
     color: cadetblue;
@@ -45,7 +46,7 @@ body{
     min-height:40px;
     padding-top: 2px;
     max-width: 90%;
-    min-width: 88%;
+    min-width: 87%;
 }
 .addbox:focus{
  
@@ -108,5 +109,5 @@ body{
     padding-bottom: 1px;
     border-radius: 5px;
     color: white;
-    background-color: rgb(224, 62, 62);
+    background-color: rgb(205 62 62);
 }
