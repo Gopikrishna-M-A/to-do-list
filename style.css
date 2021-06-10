@@ -43,6 +43,7 @@ body{
 }
 .title-word{
     width: 100%;
+    
 }
 .addbox{
     border-radius: 10px;
@@ -65,9 +66,9 @@ body{
     cursor: pointer;
     text-align: center;
     font-family: 'Seymour One', sans-serif;
-    color: cadetblue;
-    background-color:rgb(150, 241, 211) ;
-    border: 1px solid cadetblue ;
+    color: #3e6567 ;
+    background-color: rgb(151 255 197);
+    border: 1px solid #3e6567 ;
     border-radius: 9px;
     max-width: 40px;
     min-width: 30px;
@@ -81,8 +82,8 @@ body{
 }
 .addbutton:hover{   
     border: none;
-    color:rgb(150, 241, 211)  ;
-    background-color:rgb(45, 216, 159);
+    color: rgb(151 255 197) ;
+    background-color:#3e6567 ;
 }
 .button{
     
@@ -96,6 +97,7 @@ body{
     border: 1px solid cadetblue ;
 }
 .displaybox{
+    word-break: break-all;
     text-align: center;
     border-radius: 10px;
     font-size: 16px;
@@ -105,7 +107,7 @@ body{
     background-color:rgb(103, 226, 185);
     min-height:40px;
     padding-top: 2px;
-    margin-top: 5px;
+    margin-top: 10px;
     max-width: 90%;
     min-width: 87%;
 }
